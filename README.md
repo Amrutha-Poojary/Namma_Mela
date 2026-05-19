@@ -1,34 +1,26 @@
-## Namma_Mela 🎉
+# Namma Mela Android App
 
-Namma_Mela is an Android application developed using Kotlin in Android Studio. The app is designed to help users explore local events, register participation, and manage community-related activities through a simple and user-friendly mobile interface.
+Native Kotlin Android app for rural drama theaters. The project uses Jetpack Compose, Material 3, and an MVVM-style state holder.
 
----
+## Open In Android Studio
 
-## 📌 Features
+1. Open this folder in Android Studio:
+   `C:\Users\91807\Documents\Codex\2026-05-04\files-mentioned-by-the-user-readme`
+2. Let Gradle sync.
+3. Run the `app` configuration on an emulator or Android phone.
 
-- User Login & Registration
-- Event Browsing
-- Event Details View
-- Complaint Submission
-- Search Functionality
-- Responsive User Interface
-- Real-time Data Handling
+## Build From Terminal
 
----
+```powershell
+.\gradlew.bat assembleDebug
+```
 
-## 🛠️ Technologies Used
+If Android Studio creates the Gradle wrapper, use that wrapper command. Without a wrapper, run the same task from Android Studio.
 
-### Mobile Application
-- Kotlin
-- XML
+## Current Features
 
-### Development Tool
-- Android Studio
-
-### Database
-- Firebase Realtime Database / SQLite
-
-### Other Tools
-- Firebase Authentication
-- Firebase Storage
-
+- Home dashboard for upcoming village drama shows
+- Show selection with venue, troupe, date, and price
+- Seat booking grid with live selected-seat total
+- Applause wall for audience comments
+- Compose Material 3 theme and Android launcher configuration
